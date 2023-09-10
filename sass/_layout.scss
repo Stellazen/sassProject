@@ -1,0 +1,17 @@
+//header e footer - itens que são "fixos" e não são reutilizáveis
+@import 'base';
+
+body{
+    background-color: $rosinha;
+}
+
+.header{
+    height: 50px;
+    background-color: $verde-escuro;
+
+    h1{
+        color: $verde-claro;
+        font-family: $fonte-principal;
+    }
+}
+
